@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Online Boyfriend",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "A popup will appear!"
+  }
+}
