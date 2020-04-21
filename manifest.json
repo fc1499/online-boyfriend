@@ -2,6 +2,8 @@
   "manifest_version": 2,
   "name": "Online Boyfriend",
   "version": "1.0",
+  "description": "Creates a digital boyfriend for you to chat with while browsing. 60% British, 30% Hairy, 10% Style.
+",
   "content_scripts": [
     {
       "matches": [
@@ -12,7 +14,7 @@
   ],
   "permissions": ["tabs"],
   "browser_action": {
-    "default_icon": "images/icon.png",
+    "default_icon": "images/harry.png",
     "default_popup": "sketch/index.html",
     "default_title": "A popup will appear!"
   }
